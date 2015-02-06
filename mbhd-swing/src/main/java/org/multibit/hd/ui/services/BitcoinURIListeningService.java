@@ -106,7 +106,7 @@ public class BitcoinURIListeningService extends AbstractService {
           }
         });
 
-      log.info("Listening for MultiBit HD instances on socket: '{}'", MULTIBIT_HD_NETWORK_SOCKET);
+      log.info("Listening for DigiBit HD instances on socket: '{}'", MULTIBIT_HD_NETWORK_SOCKET);
 
       // Must be OK to be here
       return true;

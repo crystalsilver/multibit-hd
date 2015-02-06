@@ -37,7 +37,7 @@ public class TransactionDetailPanelView extends AbstractWizardPanelView<Payments
 
   private static final Logger log = LoggerFactory.getLogger(TransactionDetailPanelView.class);
 
-  private static final String BLOCKCHAIN_INFO_PREFIX = "https://blockchain.info/tx-index/";
+  private static final String BLOCKCHAIN_INFO_PREFIX = "https://digiexplorer.info/tx/";
 
   private static final int  MAXIMUM_ERROR_LENGTH = 100;
 

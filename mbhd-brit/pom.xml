@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <groupId>org.multibit.hd</groupId>
-    <artifactId>mbhd-parent</artifactId>
-    <version>develop-SNAPSHOT</version>
+    <artifactId>dbhd-parent</artifactId>
+    <version>0.0.5beta</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>mbhd-brit</artifactId>
+  <artifactId>dbhd-brit</artifactId>
 
-  <name>MultiBit HD BRIT</name>
+  <name>Digibit HD BRIT</name>
   <description>The Burton-Rowe Income Technique (BIRT) uses a large set of public keys to provide an ongoing income.</description>
 
   <!-- Common build -->

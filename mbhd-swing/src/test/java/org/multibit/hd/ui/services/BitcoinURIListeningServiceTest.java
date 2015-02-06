@@ -134,7 +134,7 @@ public class BitcoinURIListeningServiceTest {
         InetAddress.getLoopbackAddress()
       );
     } catch (BindException e) {
-      fail("Address already in use - is another version of MultiBit HD already running?");
+      fail("Address already in use - is another version of DigiBit HD already running?");
     }
 
     String[] args = new String[]{

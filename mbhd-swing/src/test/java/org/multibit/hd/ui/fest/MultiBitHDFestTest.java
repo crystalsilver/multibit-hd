@@ -651,7 +651,7 @@ public class MultiBitHDFestTest extends FestSwingTestCaseTemplate {
       ExceptionHandler.handleThrowable(e);
     }
 
-    log.info("Starting MultiBit HD...");
+    log.info("Starting DigiBit HD...");
 
     // Start MultiBit HD within FEST (mimic main method but split sequence)
     testObject = new MultiBitHD();

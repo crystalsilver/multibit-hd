@@ -164,7 +164,7 @@ public class CoreServices {
     }
 
     // Configure logging now that we have a configuration
-    new LoggingFactory(Configurations.currentConfiguration.getLogging(), "MultiBit HD").configure();
+    new LoggingFactory(Configurations.currentConfiguration.getLogging(), "DigiBit HD").configure();
 
     // Start security checking service
     securityCheckingService.start();

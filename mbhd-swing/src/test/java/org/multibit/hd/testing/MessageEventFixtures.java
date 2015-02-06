@@ -20,7 +20,7 @@ import org.slf4j.LoggerFactory;
  * exercised ensuring that the closest approximation to a real device is maintained.</p>
  *
  * @since 0.0.5
- *  
+ *  
  */
 public class MessageEventFixtures {
 

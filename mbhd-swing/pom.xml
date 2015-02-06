@@ -4,15 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
     <groupId>org.multibit.hd</groupId>
-    <artifactId>mbhd-parent</artifactId>
-    <version>develop-SNAPSHOT</version>
+    <artifactId>dbhd-parent</artifactId>
+    <version>0.0.5beta</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>mbhd-swing</artifactId>
+  <artifactId>dbhd-swing</artifactId>
 
-  <name>MultiBit HD Swing</name>
-  <description>The Swing implementation of the MultiBit HD user interface.</description>
+  <name>Digibit HD Swing</name>
+  <description>The Swing implementation of the Digibit HD user interface.</description>
 
   <!-- Common build -->
   <build>
@@ -124,7 +124,7 @@
                 </transformer>
               </transformers>
               <!-- This entry links to the installer configurations -->
-              <finalName>multibit-hd</finalName>
+              <finalName>digibit-hd</finalName>
             </configuration>
           </execution>
         </executions>
@@ -138,7 +138,7 @@
     <!-- MultiBit HD support libraries -->
     <dependency>
       <groupId>org.multibit.hd</groupId>
-      <artifactId>mbhd-core</artifactId>
+      <artifactId>dbhd-core</artifactId>
       <version>${project.parent.version}</version>
     </dependency>
 

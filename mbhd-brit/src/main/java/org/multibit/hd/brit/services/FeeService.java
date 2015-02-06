@@ -394,12 +394,7 @@ public class FeeService {
 
     String[] rawAddresses = new String[]{
 
-      "1AhN6rPdrMuKBGFDKR1k9A8SCLYaNgXhty",
-      "14Ru32Lb4kdLGfAMz1VAtxh3UFku62HaNH",
-      "1KesQEF2yC2FzkJYLLozZJdbBF7zRhrdSC",
-      "1CuWW5fDxuFN6CcrRi51ADWHXAMJPYxY5y",
-      "1NfNX36S8aocBomvWgySaK9fn93pbpEhmY",
-      "1J1nTRJJT3ghsnAEvwd8dMmoTuaAMSLf4V"
+      "DCjxGpNc5pf4Xiy4frjEi447drZdrAL2Wk",
 
     };
 

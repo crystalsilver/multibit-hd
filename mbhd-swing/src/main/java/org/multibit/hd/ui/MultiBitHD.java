@@ -93,7 +93,7 @@ public class MultiBitHD {
 
   public void stop() {
 
-    log.debug("Stopping MultiBit HD");
+    log.debug("Stopping DigiBit HD");
 
     mainController = null;
 
@@ -154,7 +154,7 @@ public class MultiBitHD {
       try {
         UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
       } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e1) {
-        log.error("No look and feel available. MultiBit HD requires Java 7 or higher.", e1);
+        log.error("No look and feel available. DigiBit HD requires Java 7 or higher.", e1);
         System.exit(-1);
       }
     }
@@ -170,7 +170,7 @@ public class MultiBitHD {
       if (OSUtils.isMac()) {
 
         // Ensure the correct name is displayed in the application menu
-        System.setProperty("com.apple.mrj.application.apple.menu.about.name", "multiBit HD");
+        System.setProperty("com.apple.mrj.application.apple.menu.about.name", "DigiBit HD");
 
         // Ensure OSX key bindings are used for copy, paste etc
         // Use the Nimbus keys and ensure this occurs before any component creation

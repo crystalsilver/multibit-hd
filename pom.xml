@@ -4,13 +4,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.multibit.hd</groupId>
-  <artifactId>mbhd-parent</artifactId>
-  <version>develop-SNAPSHOT</version>
+  <artifactId>dbhd-parent</artifactId>
+  <version>0.0.5beta</version>
   <packaging>pom</packaging>
 
-  <name>MultiBit HD</name>
-  <description>MultiBit HD is a Java Bitcoin wallet providing a simple to use wallet based on hierarchical deterministic wallets and hardware wallets. It
-    relies on the Simplified Payment Verification (SPV) mode of Bitcoin.
+  <name>Digibit HD</name>
+  <description>Digibit HD is a Java Digibyte wallet providing a simple to use wallet based on hierarchical deterministic wallets and hardware wallets. It
+    relies on the Simplified Payment Verification (SPV) mode of Digibyte.
   </description>
 
   <properties>
@@ -276,7 +276,7 @@
       <dependency>
         <groupId>org.multibit.hd.hardware</groupId>
         <artifactId>trezor</artifactId>
-        <version>develop-SNAPSHOT</version>
+        <version>0.2.1</version>
       </dependency>
 
       <!-- Logging is through SLF4J and Logback -->
@@ -314,7 +314,7 @@
       <!-- Bitcoinj for Bitcoin operations -->
       <dependency>
         <groupId>org.bitcoinj</groupId>
-        <artifactId>bitcoinj-core</artifactId>
+        <artifactId>digibytej-core</artifactId>
         <version>0.13-alice-SNAPSHOT</version>
       </dependency>
 
@@ -408,7 +408,7 @@
     <!-- Bitcoinj for Bitcoin operations -->
     <dependency>
       <groupId>org.bitcoinj</groupId>
-      <artifactId>bitcoinj-core</artifactId>
+      <artifactId>digibytej-core</artifactId>
     </dependency>
 
     <!-- Joda time for timestamps -->

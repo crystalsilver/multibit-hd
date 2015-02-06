@@ -191,7 +191,7 @@ public class TrezorInitialisedReattachedFixture extends AbstractHardwareWalletFi
    */
   private void mockGetCipherKey(HardwareWalletClient client) {
 
-    byte[] key = "MultiBit HD     Unlock".getBytes(Charsets.UTF_8);
+    byte[] key = "DigiBit HD     Unlock".getBytes(Charsets.UTF_8);
     byte[] keyValue = "0123456789abcdef".getBytes(Charsets.UTF_8);
 
     when(client.cipherKeyValue(0, KeyChain.KeyPurpose.RECEIVE_FUNDS, 0, key, keyValue, true, true, true)).thenAnswer(

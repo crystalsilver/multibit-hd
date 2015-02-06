@@ -71,7 +71,7 @@ public class BitcoinMessagesTest {
     assertThat(actual.getMessage()).isEqualTo("Hello World");
     assertThat(actual.getAddress()).isEqualTo("16R2kAxaUNM4xj6ykKbxEugpJdYyJzTP13");
     assertThat(actual.getSignature()).isEqualTo("H0b22gIQIfutUzm7Z9qchdfhUtaO52alhNPK3emrkGOfbOzGHVPuWD9rMIphxniwBNgF/YN4c5C/dMwXz3yJz5k=");
-    assertThat(actual.getVersion()).startsWith("MultiBit HD");
+    assertThat(actual.getVersion()).startsWith("DigiBit HD");
     assertThat(actual.getComment()).isEqualTo("https://multibit.org");
 
   }
@@ -86,7 +86,7 @@ public class BitcoinMessagesTest {
     assertThat(actual.getMessage()).isEqualTo("Hello World");
     assertThat(actual.getAddress()).isEqualTo("16R2kAxaUNM4xj6ykKbxEugpJdYyJzTP13");
     assertThat(actual.getSignature()).isEqualTo("H0b22gIQIfutUzm7Z9qchdfhUtaO52alhNPK3emrkGOfbOzGHVPuWD9rMIphxniwBNgF/YN4c5C/dMwXz3yJz5k=");
-    assertThat(actual.getVersion()).startsWith("MultiBit HD");
+    assertThat(actual.getVersion()).startsWith("DigiBit HD");
     assertThat(actual.getComment()).isEqualTo("https://multibit.org");
 
   }
@@ -116,7 +116,7 @@ public class BitcoinMessagesTest {
     assertThat(actual.getMessage()).isEqualTo("");
     assertThat(actual.getAddress()).isEqualTo("16R2kAxaUNM4xj6ykKbxEugpJdYyJzTP13");
     assertThat(actual.getSignature()).isEqualTo("H0b22gIQIfutUzm7Z9qchdfhUtaO52alhNPK3emrkGOfbOzGHVPuWD9rMIphxniwBNgF/YN4c5C/dMwXz3yJz5k=");
-    assertThat(actual.getVersion()).startsWith("MultiBit HD");
+    assertThat(actual.getVersion()).startsWith("DigiBit HD");
     assertThat(actual.getComment()).isEqualTo("https://multibit.org");
 
   }
@@ -132,7 +132,7 @@ public class BitcoinMessagesTest {
     assertThat(actual.getMessage().contains("Mary"+ls)).isTrue();
     assertThat(actual.getAddress()).isEqualTo("16R2kAxaUNM4xj6ykKbxEugpJdYyJzTP13");
     assertThat(actual.getSignature()).isEqualTo("ICt2ZS5hSnKuJtLTx3GImH611PgMK/cWKKuBktsMwxNmboa9ph3f1ypZ+Ti5GggEyhm1v7mc6B2H2ZSByhOWIr0=");
-    assertThat(actual.getVersion()).startsWith("MultiBit HD");
+    assertThat(actual.getVersion()).startsWith("DigiBit HD");
     assertThat(actual.getComment()).isEqualTo("https://multibit.org");
 
   }

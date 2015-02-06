@@ -37,7 +37,7 @@ public enum BitcoinSymbol {
   /**
    * The current de facto standard but may be superseded (cannot be an ISO standard)
    */
-  BTC("BTC", "BTC", BigDecimal.ONE, 8),
+  BTC("DGB", "DGB", BigDecimal.ONE, 8),
   /**
    * A milli in the current de facto standard
    */

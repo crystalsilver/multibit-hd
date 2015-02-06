@@ -863,7 +863,7 @@ public class Buttons {
    *
    * @return A new "Units settings" wizard button with icon
    */
-  public static JButton newShowUnitsSettingsWizardButton(Action action) {
+  /*public static JButton newShowUnitsSettingsWizardButton(Action action) {
 
     JButton button = newLargeButton(action, MessageKey.SHOW_UNITS_WIZARD, MessageKey.SHOW_UNITS_WIZARD_TOOLTIP);
 
@@ -876,14 +876,14 @@ public class Buttons {
     );
 
     return button;
-  }
+  }*/
 
   /**
    * @param action The click action
    *
    * @return A new "exchange rate provider settings" wizard button with icon
    */
-  public static JButton newShowExchangeSettingsWizardButton(Action action) {
+  /*public static JButton newShowExchangeSettingsWizardButton(Action action) {
 
     JButton button = newLargeButton(action, MessageKey.SHOW_EXCHANGE_WIZARD, MessageKey.SHOW_EXCHANGE_WIZARD_TOOLTIP);
 
@@ -896,7 +896,7 @@ public class Buttons {
     );
 
     return button;
-  }
+  }*/
 
   /**
    * @param action The click action
